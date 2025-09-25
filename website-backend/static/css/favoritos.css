@@ -1,0 +1,46 @@
+@import url('root.css');
+
+/* Estilos específicos para favoritos */
+.bg-favorito {
+  background: var(--warning) !important;
+  color: var(--text-light);
+  border-radius: 50%;
+  padding: 0.3em 0.5em;
+  font-size: 1.1em;
+}
+
+.card {
+  background: var(--bg-light);
+  border: none;
+  box-shadow: 0 2px 12px #ffd70033;
+}
+
+.card-title {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.btn-danger {
+  background: var(--danger);
+  border-color: var(--danger);
+}
+
+.btn-danger:hover {
+  background: #a00;
+  border-color: #a00;
+}
+
+.btn-success {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-success:hover {
+  background: #128c3c;
+  border-color: #128c3c;
+}

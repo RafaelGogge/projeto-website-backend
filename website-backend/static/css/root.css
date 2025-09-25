@@ -1,0 +1,55 @@
+:root {
+  --primary: #ff4b2b;
+  --secondary: #bfa13a;
+  --accent: #1db954;
+  --bg-light: #fffbe6;
+  --bg-dark: #222;
+  --text-main: #222;
+  --text-light: #fff;
+  --warning: #ffd700;
+  --danger: #d33;
+}
+
+body {
+  background: var(--bg-light);
+  color: var(--text-main);
+}
+
+.navbar {
+  background: var(--bg-dark) !important;
+}
+
+.logo-icon {
+  color: var(--primary);
+}
+
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-outline-secondary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-secondary:hover {
+  background: var(--primary);
+  color: var(--text-light);
+}
+
+/* Utilitário para cards */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px #0001;
+}
+
+/* Utilitário para títulos */
+.fw-bold {
+  font-weight: 700 !important;
+}

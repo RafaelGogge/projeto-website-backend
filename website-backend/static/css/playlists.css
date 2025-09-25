@@ -1,0 +1,54 @@
+/* Logo centralizada na index */
+.logo-centralizada {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 16px #ffd70088;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.logo-centralizada:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 32px #ffd700cc, 0 0 0 4px #fffbe6;
+}
+@import url('root.css');
+
+/* Estilos específicos para playlists */
+.playlist-card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 18px #1db95422;
+  overflow: hidden;
+}
+
+.playlist-img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  min-height: 140px;
+  max-height: 180px;
+}
+
+.card-title {
+  color: var(--primary);
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff8dc;
+}
+
+.card-subtitle {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.btn-success {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-success:hover {
+  background: #128c3c;
+  border-color: #128c3c;
+}

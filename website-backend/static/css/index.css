@@ -1,0 +1,47 @@
+@import url('root.css');
+
+/* Estilos específicos da tela inicial */
+.logo-centralizada {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 16px #ffd70088;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.logo-centralizada:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 32px #ffd700cc, 0 0 0 4px #fffbe6;
+}
+
+form {
+  background: var(--bg-light);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1.2rem 1rem 0.5rem 1rem;
+}
+
+.card {
+  background: #fff;
+  border: none;
+}
+
+.card-title {
+  color: var(--primary);
+}
+
+.card-subtitle {
+  color: var(--secondary);
+}
+
+.btn-outline-success {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-outline-success:hover {
+  background: var(--accent);
+  color: var(--text-light);
+}
